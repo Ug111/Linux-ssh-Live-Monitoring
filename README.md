@@ -1,5 +1,4 @@
 # Linux SSH Brute Force Monitoring & Automation
-
 🔐 Project Overview
 This project demonstrates detection and automation of SSH brute-force login attempts on a Linux system using:
 	•	Bash scripting
@@ -12,7 +11,7 @@ This project demonstrates detection and automation of SSH brute-force login atte
   Used: grep "Failed password" /var/log/auth.log
   Extracted source IP addresses and counted  failed login attempts.
   
- 🔄 Phase 2 – Live Monitoring
+   🔄 Phase 2 – Live Monitoring
  Built a continuous monitoring loop that:
 	•	Parses SSH failed logins
 	•	Counts failed attempts per IP
